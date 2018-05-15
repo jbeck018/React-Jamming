@@ -1,0 +1,18 @@
+body, html, * {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/*Primary colors:
+red1: #8ee4af;
+RED2: #e34234;
+GREEN1: #5CDB95;
+GREEN2: 907163;
+GREEN3: 379683;
+*/

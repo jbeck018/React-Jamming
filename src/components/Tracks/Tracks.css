@@ -1,0 +1,32 @@
+.tracks{
+  color: white;
+  border: 1px solid white;
+  background-color: rgba(0,0,0,.5);
+  width: 100%;
+  padding: 30px 10px 10px 10px;
+  height: 60px;
+  vertical-align: middle;
+}
+
+.info{
+  width: 80%;
+  text-align: left !important;
+  float: left;
+}
+
+.action{
+  width: 20%;
+  float: left;
+}
+
+.action a{
+  font-size: 30px;
+}
+
+.action a:hover{
+  cursor: pointer;
+}
+
+.tracks:hover{
+  background-color: rgba(0,0,0,.8);
+}

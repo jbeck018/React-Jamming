@@ -1,0 +1,28 @@
+.objectBox {
+  border: 1px solid white;
+  height: 30rem;
+  width: 425px;
+  margin: 0 auto 50px auto;
+  overflow-y: scroll;
+}
+
+.tile {
+
+}
+
+.centered {
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 500px){
+  .objectBox{
+    width: 325px;
+  }
+}
+
+h3 {
+  color: white;
+  margin: 0 auto 10px auto;
+  padding: .6rem 2rem;
+  font-size: 1.17rem;
+}

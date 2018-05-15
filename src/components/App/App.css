@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+  background-image: url('concert.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.App-header {
+  height: 100px;
+  padding-top: 75px;
+}
+
+.App-title {
+  font-size: 3em;
+  color: #cca353;
+}
+
+.col2 {
+  width: 50%;
+  float: left;
+  overflow: auto;
+}
