@@ -1,3 +1,15 @@
+## React Jamming App
+
+Prior to reviewing my code please read the following brief about how I created my app as I deviated from the actual assignment some (the moderator advised it was ok as long as I told you what I did differently).
+
+1. I wrote all the css myself (although I don't expect you to review it) and as such my page will look slightly different than what the project originally called for.
+
+2. I ran through the project by my own means first and then went back and tried to align it as much as possible to what the "directions" were. Due to this, there are some slight modifications that I made that differ from the original app. The first being that I put the "Submit Playlist" button below the search bar as opposed to in the playlist column which obvously changed the way I passed information to the child components. Second, I used a container row compononet to house my Result and playlist divs so that they would overflow correctly. This meant that the way I passed information as well as the general layout of my components look compared to the origianl differ.
+
+3. Aside from those changes, the app should function exactly as the directions stated. 
+
+## Created using React
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
