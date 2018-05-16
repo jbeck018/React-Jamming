@@ -75,9 +75,7 @@ const Spotify = {
           }
         }).then(jsonResponse => {
           playlistID = jsonResponse.id;
-          console.log(playlistID);
           addTracksURL = 'https://api.spotify.com/v1/users/'+userID+'/playlists/'+playlistID+'/tracks';
-          console.log(addTracksURL);
           return fetch(addTracksURL, {
             method: 'POST',
             headers: {
@@ -88,11 +86,8 @@ const Spotify = {
           }).then(response => {
             if(response.ok) {
               return response.json();
-            }else{
-              console.log('request failed');
             }
           }).then(jsonResponse => {
-            console.log(jsonResponse);
             playlistID = jsonResponse.id;
           });
         })
