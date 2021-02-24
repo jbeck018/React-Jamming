@@ -1,10 +1,13 @@
-const clientId = '91c6fa86b8194f899bba254e2f38b365';
-const redirectURI = 'http://localhost:3000/';
-const authURL = 'https://accounts.spotify.com/authorize?client_id='+clientId+'&response_type=token&scope=playlist-modify-public&redirect_uri='+redirectURI;
+import React from 'react';
 
+const clientID = process.env.REACT_APP_CLIENT_ID;
+const redirectURI = process.env.REACT_APP_REDIRECT_URI;
 
+const authURL = 'https://accounts.spotify.com/authorize?client_id='+clientID+'&response_type=token&scope=playlist-modify-public&redirect_uri='+redirectURI;
 let accessToken = '';
 let expiresIn = '';
+
+console.log(authURL)
 
 const Spotify = {
 
