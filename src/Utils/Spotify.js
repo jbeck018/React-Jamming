@@ -7,8 +7,6 @@ const authURL = 'https://accounts.spotify.com/authorize?client_id='+clientID+'&r
 let accessToken = '';
 let expiresIn = '';
 
-console.log(authURL)
-
 const Spotify = {
 
   getAccessToken() {

@@ -3,7 +3,8 @@ import './App.css';
 import SearchBar from '../SearchBar/SearchBar.js';
 import ContainerRow from '../ContainerRow/ContainerRow.js';
 import Spotify from '../../Utils/Spotify.js';
-
+import LazyLoad from 'react-lazyload';
+import bgImage from './concert.jpg';
 
 class App extends React.Component {
   constructor(props){
