@@ -9,6 +9,15 @@ body, html, * {
   background: transparent;
 }
 
+body {
+  background-image: url('concert.jpg');
+  background-color: #433238;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
 /*Primary colors:
 red1: #8ee4af;
 RED2: #e34234;
